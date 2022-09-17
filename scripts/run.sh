@@ -10,4 +10,4 @@ else
 fi
 
 # Run litestream with your app as the subprocess.
-exec litestream replicate -exec "/usr/local/bin/pocketbase --dir /pb_data serve --http 0.0.0.0:8080 --https 0.0.0.0:8080"
+exec litestream replicate -exec '/usr/local/bin/pocketbase --dir /pb_data serve --http="0.0.0.0:8080" --https="0.0.0.0:8080"'
