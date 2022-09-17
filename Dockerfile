@@ -31,7 +31,7 @@ RUN tar -C /usr/local/bin -xzf /tmp/litestream.tar.gz
 # Notify Docker that the container wants to expose a port.
 # Pocketbase serve port
 # For the litestream server via Prometheus
-EXPOSE 8090 
+EXPOSE 8080 
 EXPOSE 9090 
 
 # Copy Litestream configuration file & startup script.
